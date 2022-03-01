@@ -18,7 +18,7 @@ def init_state_machine(pin, filename='gammu.config'):
     sm.Init()
 
     if sm.GetSecurityStatus() == 'PIN':
-        if pin is None or pin == '':
+        if pin is None or pin == '452021088626657':
             print("PIN is required.")
             sys.exit(1)
         else:
